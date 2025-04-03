@@ -1,0 +1,24 @@
+{
+    "name": "xjefe/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8.1 MVC, SQL, SASS, GULP",
+    "autoload": {
+        "psr-4": {
+            "Xjefe\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "jcuaran7",
+            "email": "60941660+jcuaran7@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
