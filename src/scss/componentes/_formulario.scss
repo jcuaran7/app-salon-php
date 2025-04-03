@@ -3,6 +3,7 @@
 @use "sass:color";
 
 .formulario {
+    height: auto;
     width: 100%;
     margin-top: 5rem;
 }
@@ -13,10 +14,12 @@
     align-items: center;
 
     label {
-        flex: 0 0 10rem;
+        flex: 0 0 10rem ;
+        
     }
 
     input {
+        width: 100%;
         flex: 1;
         border: none;
         padding: calc(v.$separacion / 4);
