@@ -14,7 +14,9 @@ class LoginController {
         if ($_SERVER['REQUEST_METHOD']==='POST') {
             $auth = new Usuario($_POST);
 
+
             $alertas = $auth->validarLogin();
+            
 
             if(empty($alertas)) {
                 //comprobar que exista el usuario
@@ -30,6 +32,7 @@ class LoginController {
                         $_SESSION['nombre'] = $usuario->nombre . " ". $usuario->apellido;
                         $_SESSION['email'] = $usuario->email;
                         $_SESSION['login'] = true;
+
 
                         //redireccionamiento
 

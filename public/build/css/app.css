@@ -560,13 +560,6 @@ p {
   margin: 0;
 }
 
-.campo {
-  align-items: center;
-}
-.campo input {
-  width: 50%;
-}
-
 .formulario {
   height: auto;
   width: 100%;
